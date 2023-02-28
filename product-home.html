@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        .card-img-top-2{
+            height:380px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(96, 54, 248)">
+    <header class="bg-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-7 my-auto">
+                    <p class="display-2 fw-bold">Brand New Cars</p>
+                    <p class="h4">Choose to cruze</p>
+                </div>
+                <div class="col-5">
+                    <img src="car.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mt-5">
+                <div class="card mycard">
+                    <img src="car2.webp" alt="" class="card-img-top-2">
+                    <div class="card-body">
+                    <p class="text-muted">Best Sedan</p>
+                    <h3>Mercedes Benz 4.0</h3>
+                    <h2>At Just ₹4,55,67,990</h2>
+                    <button class="btn btn-primary w-100"><i class="fas fa-shopping-cart"></i> Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card mycard">
+                    <img src="car1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="text-muted">Best Hatchback</p>
+                        <h3>Audi S-Class</h3>
+                        <h2>At Just ₹3,43,45,990</h2>
+                        <button class="btn btn-primary w-100"><i class="fas fa-shopping-cart"></i> Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card mycard">
+                    <img src="car1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="text-muted">Best SUV</p>
+                        <h3>BMW X3 2.4</h3>
+                        <h2>At Just ₹6,75,45,990</h2>
+                        <button class="btn btn-primary w-100"><i class="shopping"></i> Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card mycard">
+                    <img src="car1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="text-muted">Best Sedan</p>
+                        <h3>Mercedes Benz 4.0</h3>
+                        <h2>At Just ₹4,55,67,990</h2>
+                        <button class="btn btn-primary w-100"><i class="fas fa-shopping-cart"></i> Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"
+            integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- MDB -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".mycard"), {
+                max: 10,
+                speed: 42000
+            });
+        </script>
+</body>
+</html>

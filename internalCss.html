@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Internal Css</title>
+    <style>
+        p{
+            font-size: 30px;
+            color: blue;
+            background-color: yellow;
+            font-weight: bold;
+            text-decoration: 4px dashed underline red;
+        }
+        .mytext{
+            color:green;
+            border: 2px solid red;
+        }
+        #uniquetag{
+            color: aqua;
+            background-color: rgb(244, 76, 76);
+            border: 4px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <p>Internal css is used to style entire page at once</p>
+    <P>Internal css is applied using style tag inside head tag</P>
+    <h2 class="mytext">Some Heading tag</h2>
+    <p class="mytext">Class selector is used to select element by class name</p>
+    <h1 id="uniquetag">ID selectors are used to select unique elements by their id name</h1>
+</body>
+</html>

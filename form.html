@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+
+<body>
+    <h2>Student Admission Form</h2>
+    <form>
+        <label>Full Name</label>
+        <input type="text">
+        <label>choose color</label>
+        <input type="color">
+        <label>E-mail address</label>
+        <input type="email">
+        <label>Address</label>
+        <textarea cols="40" rows="10"></textarea>
+        <br><br><br><br>
+        <u><label for="image">Upload Image</label></u>
+        <input hidden type="file" id="image" accept="image/*">
+        <br><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br><br>
+        <label>State</label>
+        <select>
+            <option>UP</option>
+            <option>HP</option>
+            <option>J&k</option>
+            <option>Rajasthan</option>
+            <option>Tamil Nadu</option>
+            <option>Haryana</option>
+            <option>Jharkhand</option>
+        </select>
+        </label>
+        <label>Previous study</label>
+        <input list="course" type="text">
+        <datalist id="course">
+            <option>Btech</option>
+            <option>BCA</option>
+            <option>BArch</option>
+            <option>BA</option>
+            <option>BCom</option>
+            <option>Mcom</option>
+            <option>BPharma</option>
+            <option>MPharma</option>
+            <option>LLB</option>
+        </datalist>
+        <br><br>
+        <input type="checkbox">I accept terms and conditions
+        <details>
+            <summary>Terms & conditions</summary>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut neque a, hic aut ullam modi inventore soluta eveniet placeat adipisci aliquam voluptatum id esse eum doloribus cum alias. Nobis, delectus nihil eaque dolor amet repudiandae.
+        </details>
+    </form>
+    
+</body>
+
+</html>

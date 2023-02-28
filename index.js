@@ -1,0 +1,10 @@
+console.log('Hello Javascript');
+num=234;
+console.log(num);
+lunch="burger";
+console.log(lunch);
+console.log(typeof(num));
+console.log(typeof(lunch));
+num1=234;
+num2=455;
+console.log(num1+num2);
